@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Popover, Transition } from '@headlessui/react';
-import { callsToAction, products } from '@/lib/utils';
+import { callsToAction, products } from './utils';
 import { NavLink } from '../NavLink';
 
 export const PopoverGroup = () => (
