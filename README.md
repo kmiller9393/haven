@@ -28,8 +28,12 @@ After submitting this information mentioned above on the landing page, users are
 
 #### Loading State:
 
-![Landing Image](/public/skeleton.png)
+![Loading Image](/public/skeleton.png)
 
 #### After results are fetched:
 
-![Landing Image](/public/results.png)
+![Results Image](/public/results.png)
+
+#### After clicking on an individual result:
+
+![Booking.com Image](/public/booking.png)
