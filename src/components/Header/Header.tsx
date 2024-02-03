@@ -2,14 +2,11 @@
 
 import Link from 'next/link';
 import { Bars3Icon } from '@heroicons/react/24/outline';
-import { headerImage } from '@/lib/utils';
 import { PopoverGroup } from '../PopoverGroup';
 import { NavLink } from '../NavLink';
 import { useState } from 'react';
 import { Dialog } from '../Dialog';
-
-// TODO: continue to refactor (sep of concerns);
-// TODO: tests?
+import { headerImage } from '@/data/headerImage';
 
 export const Header = () => {
   const [open, setOpen] = useState<boolean>(false);

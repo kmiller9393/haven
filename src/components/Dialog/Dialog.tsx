@@ -1,10 +1,11 @@
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Dialog as HeadlessDialog, Disclosure } from '@headlessui/react';
-import { cn, headerImage } from '@/lib/utils';
+import { cn } from '@/lib/utils';
 import { NavLink } from '../NavLink';
 import { callsToAction, products } from '../PopoverGroup/utils';
 import { DialogProps } from './types';
+import { headerImage } from '@/data/headerImage';
 
 export const Dialog = ({ open, setOpen }: DialogProps) => (
   <HeadlessDialog as="div" className="lg:hidden" open={open} onClose={setOpen}>

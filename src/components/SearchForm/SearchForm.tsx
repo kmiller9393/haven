@@ -63,8 +63,6 @@ export const SearchForm = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-
     const checkInMonthDay = values.dates.from.getDate().toString();
     const checkInMonth = (values.dates.from.getMonth() + 1).toString();
     const checkInYear = values.dates.from.getFullYear().toString();
