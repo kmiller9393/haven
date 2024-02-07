@@ -41,11 +41,7 @@ export const Header = () => {
 
         <PopoverGroup />
 
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <NavLink href="#" size="sm">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </NavLink>
-        </div>
+        <div className="lg:flex lg:flex-1 lg:justify-end" />
       </nav>
 
       <Dialog open={open} setOpen={setOpen} />
