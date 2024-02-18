@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import { PopoverGroup } from '../PopoverGroup';
-import { NavLink } from '../NavLink';
 import { useState } from 'react';
 import { Dialog } from '../Dialog';
 import { headerImage } from '@/data/headerImage';
